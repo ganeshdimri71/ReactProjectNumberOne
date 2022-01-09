@@ -1,10 +1,10 @@
-function App() {
+import React from 'react'
+import Restaurant from './component/Bascics/Restaurant'
+
+const App = () => {
   return (
-    <div>
-      Hello World, Welcome to React JS..!
-      {3+3}
-    </div>
+   <Restaurant />
   )
 }
 
-export default App
+export default App;
